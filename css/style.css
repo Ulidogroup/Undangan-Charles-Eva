@@ -242,35 +242,3 @@ body.cover-active .page-cover .artwork {
   animation: none !important;
   transform: none !important;
 }
-
-/* Navigasi tetap mengambang pada HP */
-@media (max-width: 799px) {
-  #invitation .bottom-nav {
-    position: fixed !important;
-    bottom: 0 !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: min(100%, 540px) !important;
-    z-index: 9999 !important;
-    display: flex !important;
-    justify-content: space-around !important;
-    background: rgba(106, 23, 37, 0.97) !important;
-    border-radius: 18px 18px 0 0 !important;
-    padding: 10px 5px max(
-      10px,
-      env(safe-area-inset-bottom)
-    ) !important;
-    box-shadow: 0 -5px 25px rgba(0,0,0,.24) !important;
-  }
-
-  /* Supaya konten tidak tertutup menu */
-  #invitation {
-    padding-bottom: 85px !important;
-  }
-
-  #invitation .section {
-    scroll-margin-top: 75px;
-  }
-}
-  
-  
