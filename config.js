@@ -5,8 +5,17 @@ window.ULIDO_CONFIG = {
   couple: ['Charles', 'Eva'],
   intro: 'Dengan penuh sukacita, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pesta adat dan pernikahan kami.',
   quote: 'Horas! Sai horas ma hita saluhutna.',
-  bride: {name:'Charles Tambunan, M.M.', parents:'Putra dari Bapak Tagor Tambunan (+) dan Ibu St. Kelly Rita Br. Hutajulu, SAP'},
-  groom: {name:'Eva Herlita Br. Regar S.Kep., Ns.', parents:'Putri dari Bapak Halasson Regar (+) dan Ibu Ronta Br. Simbolon'},
+
+bride: {
+  name: 'Charles Tambunan, M.M.',
+  parents: 'Putra dari Bapak Tagor Tambunan (+) dan Ibu St. Kelly Rita Br. Hutajulu, SAP'
+},
+
+groom: {
+  name: 'Eva Herlita Br. Regar, S.Kep., Ns.',
+  parents: 'Putri dari Bapak Halasson Regar (+) dan Ibu Ronta Br. Simbolon'
+},
+
   dateISO: '2026-12-04T10:00:00+07:00',
 
 events: [
