@@ -365,3 +365,13 @@ body.cover-active .page-cover .artwork {
     font-size: 10px;
   }
 }
+
+#mempelai .eyebrow {
+  font-size: clamp(10px, 2.5vw, 14px);
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-align: center;
+  color: #b87930;
+  font-weight: 700;
+  text-transform: none;
+}
