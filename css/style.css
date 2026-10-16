@@ -457,3 +457,22 @@ body.cover-active .page-cover .artwork {
   }
 }
 
+/* FONT NAMA MEMPELAI ULIDO */
+
+#invitation .person h3 {
+  font-family:
+    "ITC Zapf Chancery BT",
+    "URW Chancery L",
+    "Apple Chancery",
+    cursive !important;
+
+  font-size: clamp(30px, 5vw, 42px) !important;
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #922535 !important;
+
+  line-height: 1.3;
+  text-align: center;
+  text-shadow: 1px 2px 3px rgba(0,0,0,0.12);
+}
+
