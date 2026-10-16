@@ -1,0 +1,45 @@
+/* ULIDO Tahap 4: hanya halaman isi, TIDAK mengubah cover */
+#invitation{--wine:#751d2b;--wine-dark:#43101e;--gold:#c28d49;--paper:#fff9ef;--ink:#54252e;overflow-x:clip;background:var(--paper)}
+#invitation .nav{background:linear-gradient(100deg,#4b1020,#872b38);border-bottom:1px solid #c28d4970;backdrop-filter:blur(10px)}
+#invitation .hero{isolation:isolate;min-height:100svh;background:radial-gradient(ellipse at 50% 35%,#a5464d 0%,#711f30 43%,#3c0e1b 100%);padding:92px 22px}
+#invitation .hero::before,#invitation .hero::after{content:none}
+#invitation .hero .pattern{inset:16px;border:2px solid #dcad6c80;border-radius:210px 210px 12px 12px;box-shadow:inset 0 0 0 8px #48111e,inset 0 0 0 9px #dcad6c50;pointer-events:none}
+#invitation .hero-content{width:min(100%,700px);padding:65px 14px 75px}
+#invitation .hero-content::before{content:'✥  ❖  ✥';display:block;color:#dfb66f;letter-spacing:16px;font-size:24px;margin-bottom:35px}
+#invitation .hero-content::after{content:'❖';display:block;color:#e6bd79;font-size:32px;margin-top:50px}
+#invitation .hero h1{font-size:clamp(51px,10vw,96px);font-weight:normal;line-height:1.07;letter-spacing:-.04em;text-shadow:0 4px 20px #21071190}
+#invitation .hero h1 em{display:inline-block;font-style:italic;font-size:.54em;font-weight:normal;color:#f5cd88}
+#invitation .hero .eyebrow{color:#f2d2a1;letter-spacing:.32em}
+#invitation .hero .welcome{font-size:clamp(14px,2.5vw,19px);line-height:1.65}
+#invitation .hero .welcome strong{color:#f4cb89;overflow-wrap:anywhere}
+#invitation .section{position:relative;overflow:hidden;padding-block:95px}
+#invitation .cream{background:linear-gradient(165deg,#fff9f1,#f9eee6)}
+#invitation .pale{background:linear-gradient(165deg,#f8e9e3,#fffaf4)}
+#invitation .section .inner{max-width:930px}
+#invitation .section h2{letter-spacing:-.025em}
+#invitation .section .eyebrow{color:#b17842;letter-spacing:.23em}
+#invitation .cream .inner::before,#invitation .pale .inner::before{content:'❖';display:block;color:var(--gold);font-size:26px;margin-bottom:10px}
+#invitation .person{border:1px solid #d3a375;background:#fffefaad;box-shadow:0 18px 35px #6e2c2510;border-radius:160px 160px 18px 18px;min-height:250px;display:flex;flex-direction:column;justify-content:center}
+#invitation .person h3{font-size:clamp(28px,4vw,41px)}
+#invitation .amp{color:#c39152;font-size:65px}
+#invitation .quote{font-size:18px;margin-top:40px}
+#invitation .maroon{background:radial-gradient(circle at top,#8d3642 0%,#5c1424 85%)}
+#invitation .maroon .eyebrow{color:#f2c98d}
+#invitation .countdown>div{background:#ffffff0b;border:1px solid #dfae7285;border-radius:10px;min-width:105px;box-shadow:inset 0 0 15px #ffffff08}
+#invitation .event-card{background:#fffdf9;border:1px solid #d4aa83;border-radius:14px;box-shadow:0 16px 30px #55172815;position:relative;overflow:hidden}
+#invitation .event-card:before{content:'❖ ───── ❖ ───── ❖';display:block;color:#c39152;font-size:15px;letter-spacing:2px;margin-bottom:15px}
+#invitation .event-card h3{margin-top:3px}
+#invitation .gallery{grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:15px}
+#invitation .gallery img{height:290px;object-fit:cover;border:5px solid #fff;box-shadow:0 12px 26px #5c1c2a25}
+#invitation .gallery-placeholder{border:1px dashed #ad7e79;background:#fff9f1b0;padding:60px 24px;line-height:1.7}
+#invitation .rsvp-form{border:1px solid #dec4aa;border-radius:18px;background:#fffefb;padding:clamp(18px,4vw,30px);box-shadow:0 15px 45px #581b2b10}
+#invitation .btn{background:linear-gradient(125deg,#79222f,#a63743);box-shadow:0 6px 18px #55172825;transition:transform .2s,filter .2s}
+#invitation .btn:hover{transform:translateY(-2px);filter:brightness(1.07)}
+#invitation .btn.outline{background:transparent;box-shadow:none}
+#invitation .footer{background:linear-gradient(140deg,#531220,#781e2d);border-top:4px double #bc8851}
+#invitation .footer h2{font-size:clamp(36px,7vw,60px);font-weight:normal;font-style:italic}
+#invitation .bottom-nav{background:#591624ed;backdrop-filter:blur(12px)}
+#invitation.ulido-motion .ulido-inview{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
+#invitation.ulido-motion .ulido-inview.ulido-visible{opacity:1;transform:none}
+@media(max-width:600px){#invitation .nav{padding:11px 12px}#invitation .nav .brand{font-size:12px}#invitation .nav nav{gap:9px}#invitation .nav nav a{font-size:10px}#invitation .hero{padding:50px 20px;min-height:94svh}#invitation .hero .pattern{inset:10px;border-radius:140px 140px 9px 9px}#invitation .hero-content{padding:55px 3px 70px}#invitation .hero-content::before{letter-spacing:10px;font-size:19px}#invitation .hero h1{font-size:clamp(46px,12.5vw,70px)}#invitation .section{padding:70px 18px}#invitation .countdown{gap:8px}#invitation .countdown>div{min-width:68px;flex:1;padding:14px 5px}#invitation .countdown strong{font-size:25px}#invitation .person{min-height:200px}#invitation .bottom-nav{width:100%;border-radius:16px 16px 0 0}}
+@media(prefers-reduced-motion:reduce){#invitation.ulido-motion .ulido-inview{opacity:1;transform:none;transition:none}}
