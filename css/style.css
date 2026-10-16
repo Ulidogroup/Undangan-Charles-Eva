@@ -117,5 +117,80 @@ body.cover-active{overflow-x:hidden}
   white-space: nowrap !important;
 }
 
+/* ULIDO RESPONSIVE COVER - HP & DESKTOP */
+
+body.cover-active {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background:
+    radial-gradient(
+      ellipse at center,
+      #f8e9e5 0%,
+      #dfb7ae 55%,
+      #641a27 100%
+    );
+}
+
+/* Ukuran cover menyesuaikan tinggi layar */
+body.cover-active .page-cover {
+  width: min(
+    100%,
+    520px,
+    calc((100svh - 24px) * 0.68115)
+  );
+  margin: auto;
+  box-shadow: 0 18px 55px rgba(55, 12, 22, .35);
+}
+
+.page-cover .artwork {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Nama tamu dan tombol */
+.page-cover .guest-area {
+  top: 79% !important;
+  left: 33.45% !important;
+  width: 60.75% !important;
+  height: 12.65% !important;
+  padding: 2% 3% !important;
+  gap: 5px !important;
+  justify-content: center;
+}
+
+.page-cover #guestDisplay {
+  font-size: clamp(10px, 2vw, 14px) !important;
+  line-height: 1.2 !important;
+  max-height: 55% !important;
+  overflow: hidden !important;
+  overflow-wrap: anywhere;
+}
+
+.page-cover #openInvitation {
+  font-size: clamp(9px, 1.5vw, 11px) !important;
+  padding: 5px 10px !important;
+  gap: 4px !important;
+  flex-shrink: 0;
+}
+
+/* Tampilan komputer */
+@media (min-width: 768px) {
+  body.cover-active {
+    padding: 20px;
+  }
+
+  body.cover-active .page-cover {
+    width: min(
+      520px,
+      calc((100svh - 40px) * 0.68115)
+    );
+  }
+}
+  
   
   
