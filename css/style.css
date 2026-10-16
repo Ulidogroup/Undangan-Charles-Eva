@@ -191,6 +191,49 @@ body.cover-active .page-cover {
     );
   }
 }
-  
+
+/* ULIDO FULL SCREEN COVER V2 */
+
+body.cover-active {
+  min-height: 100vh !important;
+  min-height: 100svh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  background: #781f2a !important;
+}
+
+body.cover-active .page-cover {
+  width: min(100vw, 520px) !important;
+  max-height: 100svh !important;
+  margin: auto !important;
+  box-shadow: 0 12px 35px rgba(0,0,0,.25);
+}
+
+body.cover-active .page-cover .artwork {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+/* Nama tamu dan tombol */
+.page-cover .guest-name {
+  font-size: clamp(10px, 2vw, 14px) !important;
+  overflow: hidden !important;
+}
+
+.page-cover #openInvitation {
+  font-size: 10px !important;
+  padding: 6px 12px !important;
+}
+
+/* HP: menyesuaikan tinggi layar */
+@media (max-width: 767px) {
+  body.cover-active .page-cover {
+    width: min(100vw, 68.115svh) !important;
+  }
+}
+
   
   
