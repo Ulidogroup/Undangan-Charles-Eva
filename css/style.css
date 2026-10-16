@@ -260,3 +260,108 @@ body.cover-active .page-cover .artwork {
     font-size: 13px !important;
   }
 }
+/* ===== ULIDO - MEMPELAI BINGKAI PINTU ===== */
+
+#invitation .arch-couple-card {
+  max-width: 620px;
+  margin: 0 auto 34px;
+}
+
+#invitation .arch-photo-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 240px 240px 26px 26px;
+  border: 3px solid #d1a05b;
+  background: #fff5ee;
+  box-shadow: 0 14px 35px rgba(121, 34, 48, 0.12);
+  aspect-ratio: 4 / 5.3;
+}
+
+#invitation .arch-photo-frame::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1.5px solid rgba(209, 160, 91, 0.65);
+  border-radius: 220px 220px 18px 18px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+#invitation .arch-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#invitation .arch-verse {
+  position: absolute;
+  top: 7%;
+  left: 8%;
+  right: 8%;
+  z-index: 3;
+  text-align: center;
+  color: #fffdf8;
+  text-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.72),
+    0 0 12px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(
+    to bottom,
+    rgba(80, 21, 28, 0.68),
+    rgba(80, 21, 28, 0.38),
+    rgba(80, 21, 28, 0)
+  );
+  padding: 18px 16px 36px;
+  border-radius: 24px 24px 120px 120px;
+}
+
+#invitation .verse-text {
+  margin: 0 0 4px;
+  font-size: clamp(13px, 1.7vw, 18px);
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+#invitation .verse-text-second {
+  margin-top: 12px;
+}
+
+#invitation .verse-ref {
+  margin: 0 0 6px;
+  font-size: clamp(12px, 1.4vw, 15px);
+  font-style: italic;
+  color: #ffe0a8;
+}
+
+@media (max-width: 767px) {
+  #invitation .arch-couple-card {
+    margin-bottom: 24px;
+  }
+
+  #invitation .arch-photo-frame {
+    border-radius: 160px 160px 18px 18px;
+    aspect-ratio: 4 / 5.6;
+  }
+
+  #invitation .arch-photo-frame::before {
+    inset: 8px;
+    border-radius: 150px 150px 14px 14px;
+  }
+
+  #invitation .arch-verse {
+    top: 5%;
+    left: 6%;
+    right: 6%;
+    padding: 12px 10px 26px;
+    border-radius: 18px 18px 80px 80px;
+  }
+
+  #invitation .verse-text {
+    font-size: 11px;
+    line-height: 1.35;
+  }
+
+  #invitation .verse-ref {
+    font-size: 10px;
+  }
+}
