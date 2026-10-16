@@ -60,4 +60,34 @@ body.cover-active{overflow-x:hidden}
     font-size: 14px !important;
   }
 }
+
+/* ULIDO - PERBAIKAN NAMA TAMU DAN TOMBOL */
+
+.page-cover .guest-area {
+  gap: 4px !important;
+  padding: 2% 3% !important;
+}
+
+.page-cover #guestDisplay {
+  font-size: clamp(10px, 2vw, 13px) !important;
+  line-height: 1.15 !important;
+  width: 100% !important;
+  max-height: none !important;
+  overflow: hidden !important;
+  text-align: center !important;
+}
+
+.page-cover #openInvitation {
+  font-size: 10px !important;
+  padding: 5px 10px !important;
+  gap: 4px !important;
+  width: auto !important;
+  flex-shrink: 0;
+}
+
+.page-cover #openInvitation .button-symbol,
+.page-cover #openInvitation .button-arrow {
+  font-size: 10px !important;
+}
+  
   
