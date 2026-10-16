@@ -3,7 +3,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
-</head><body>
+</head><body><!-- SISIPKAN INI TEPAT DI BAWAH <body> -->
+<audio id="musikUndangan" loop>
+    <source src="assets/music/Rongkap Sian Tuhan.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung pemutar audio.
+</audio>
+
+<div id="cover-overlay">
+    <h2>UNDANGAN PERNIKAHAN</h2>
+    <h1>Charles & Eva</h1>
+    <p style="margin-bottom: 30px;">Kepada Bapak/Ibu/Saudara/i Kami Mengundang Anda</p>
+    <button class="btn-buka" onclick="bukaUndangan()">Buka Undangan</button>
+</div>
 <main id="cover" class="page-cover is-entering" aria-label="Cover undangan"><img class="artwork" src="./assets/images/cover.webp" fetchpriority="high" decoding="async" width="1395" height="2048" alt="Cover Batak Toba dengan ornamen Gorga"><section class="guest-area" aria-label="Tamu undangan"><div id="guestDisplay" class="guest-name" aria-live="polite">Tamu Undangan</div><button type="button" id="openInvitation" aria-controls="invitation" aria-expanded="false"><span class="button-symbol" aria-hidden="true">✉</span><span>Buka Undangan</span><span class="button-arrow" aria-hidden="true">↗</span></button></section></main>
 <div id="invitation" hidden tabindex="-1">
 <header class="nav"><a class="brand" href="#home">💍 Charles &amp; Eva</a>
