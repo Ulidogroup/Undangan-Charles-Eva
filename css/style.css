@@ -242,3 +242,21 @@ body.cover-active .page-cover .artwork {
   animation: none !important;
   transform: none !important;
 }
+
+/* Logo nama pengantin pada navbar */
+.nav .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px !important;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #f4d49c;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .nav .brand {
+    font-size: 13px !important;
+  }
+}
