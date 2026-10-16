@@ -43,3 +43,24 @@
 #invitation.ulido-motion .ulido-inview.ulido-visible{opacity:1;transform:none}
 @media(max-width:600px){#invitation .nav{padding:11px 12px}#invitation .nav .brand{font-size:12px}#invitation .nav nav{gap:9px}#invitation .nav nav a{font-size:10px}#invitation .hero{padding:50px 20px;min-height:94svh}#invitation .hero .pattern{inset:10px;border-radius:140px 140px 9px 9px}#invitation .hero-content{padding:55px 3px 70px}#invitation .hero-content::before{letter-spacing:10px;font-size:19px}#invitation .hero h1{font-size:clamp(46px,12.5vw,70px)}#invitation .section{padding:70px 18px}#invitation .countdown{gap:8px}#invitation .countdown>div{min-width:68px;flex:1;padding:14px 5px}#invitation .countdown strong{font-size:25px}#invitation .person{min-height:200px}#invitation .bottom-nav{width:100%;border-radius:16px 16px 0 0}}
 @media(prefers-reduced-motion:reduce){#invitation.ulido-motion .ulido-inview{opacity:1;transform:none;transition:none}}
+
+/* FONT KALIGRAFI NAMA MEMPELAI */
+
+#invitation .couple-grid .person h3 {
+  font-family: "Pinyon Script", cursive !important;
+  font-size: clamp(44px, 6vw, 66px) !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0 !important;
+  color: #902735 !important;
+  text-align: center !important;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  #invitation .couple-grid .person h3 {
+    font-size: clamp(38px, 9vw, 52px) !important;
+  }
+}
+
