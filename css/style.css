@@ -26,3 +26,38 @@ body.cover-active{overflow-x:hidden}
 @keyframes ulido-reveal{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:370px){.page-cover .guest-area{gap:6%;padding:2.5%}.page-cover .guest-name{font-size:clamp(11px,3vw,14px)}.page-cover #openInvitation{padding:5px 8px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){.page-cover.is-entering .guest-area,.page-cover.is-entering .artwork,.page-cover.is-leaving,#invitation.is-revealing{animation:none!important}.page-cover #openInvitation,.page-cover .button-arrow{transition:none!important}}
+
+/* Nama tamu undangan */
+.cover-guest-name,
+.guest-name,
+#guestName {
+  font-size: 16px !important;
+  line-height: 1.3 !important;
+  max-width: 90% !important;
+  overflow-wrap: anywhere;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tombol Buka Undangan */
+.cover-open-btn,
+.open-invitation,
+#openInvitation {
+  font-size: 12px !important;
+  padding: 8px 15px !important;
+  min-height: 0 !important;
+  width: auto !important;
+  max-width: 90%;
+  border-radius: 25px !important;
+}
+
+/* Tampilan HP */
+@media (max-width: 480px) {
+  .cover-guest-name,
+  .guest-name,
+  #guestName {
+    font-size: 14px !important;
+  }
+}
+  
