@@ -2,11 +2,11 @@
 window.ULIDO_CONFIG = {
   brand: 'ULIDO',
   title: 'Gokhon Dohot Jou-Jou',
-  couple: ['Charles', 'Eva'],
+  couple: ['Eva Herlita Br. Regar S.Kep., Ns.', 'Charles Tambunan, M.M.'],
   intro: 'Dengan penuh sukacita, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pesta adat dan pernikahan kami.',
   quote: 'Horas! Sai horas ma hita saluhutna.',
-  bride: {name:'Eva', parents:'Putri dari Bapak [Nama Ayah] dan Ibu [Nama Ibu]'},
-  groom: {name:'Charles', parents:'Putra dari Bapak [Nama Ayah] dan Ibu [Nama Ibu]'},
+  bride: {name:'Charles', parents:'Putri dari Bapak Tagor Tambunan (+) dan Ibu St. Kelly Rita Br. Hutajulu, SAP'},
+  groom: {name:'Eva', parents:'Putra dari Bapak Halasson Regar (+) dan Ibu Ronta Br. Simbolon'},
   dateISO: '2026-12-04T10:00:00+07:00',
 
 events: [
