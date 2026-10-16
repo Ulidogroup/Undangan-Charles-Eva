@@ -53,4 +53,5 @@ gift: {
 },
 
 footer: 'Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan menghadiri acara pernikahan kami.'
+};
 
