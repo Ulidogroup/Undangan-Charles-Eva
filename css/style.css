@@ -412,3 +412,26 @@ body.cover-active .page-cover .artwork {
   line-height: 1.25 !important;
   margin: 0 !important;
 }
+/* Kotak ayat di bawah foto */
+#invitation .ayat-bawah {
+  max-width: 620px;
+  margin: 18px auto 28px;
+  padding: 24px 20px;
+  background: linear-gradient(145deg, #802737, #501523);
+  border: 1px solid #d7ab69;
+  border-radius: 18px;
+  color: #fff7ec;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(60, 12, 24, .16);
+}
+
+#invitation .ayat-bawah p {
+  font-size: clamp(14px, 2.8vw, 18px);
+  line-height: 1.65;
+  margin: 0 0 12px;
+}
+
+#invitation .ayat-bawah strong {
+  color: #f1c786;
+  font-size: 13px;
+}
