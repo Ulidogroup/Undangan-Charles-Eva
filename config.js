@@ -1,0 +1,18 @@
+/* UBAH DATA ACARA DI SINI. Gambar cover disimpan di assets/images/cover.webp */
+window.ULIDO_CONFIG = {
+  brand: 'ULIDO',
+  title: 'Gokhon Dohot Jou-Jou',
+  couple: ['Charles', 'Eva'],
+  intro: 'Dengan penuh sukacita, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pesta adat dan pernikahan kami.',
+  quote: 'Horas! Sai horas ma hita saluhutna.',
+  bride: {name:'Eva', parents:'Putri dari Bapak [Nama Ayah] dan Ibu [Nama Ibu]'},
+  groom: {name:'Charles', parents:'Putra dari Bapak [Nama Ayah] dan Ibu [Nama Ibu]'},
+  dateISO: '2026-12-04T10:00:00+07:00',
+  events: [
+    {name:'Pesta Adat Batak',date:'Jumat, 4 Desember 2026',time:'10.00 WIB – Selesai',venue:'BPU RUMA GORGA',address:'Jl. Patra No.128, RT.8/RW.2, Duri Kepa, Kebon Jeruk, Jakarta Barat',maps:'https://www.google.com/maps/search/?api=1&query=BPU+RUMA+GORGA+Jakarta+Barat'}
+  ],
+  gallery: [], // Isi dengan lokasi foto, mis. 'assets/gallery/foto1.webp'
+  whatsappOrganizer: '', // Format 628xxxxxxxxxx untuk RSVP via WhatsApp
+  gift: {enabled:false, bank:'',account:'',recipient:''},
+  footer: 'Mauliate godang atas doa dan kehadiran Bapak/Ibu/Saudara/i.'
+};
