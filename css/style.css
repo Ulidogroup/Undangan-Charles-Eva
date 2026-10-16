@@ -375,3 +375,63 @@ body.cover-active .page-cover .artwork {
   font-weight: 700;
   text-transform: none;
 }
+
+/* ULIDO - RESPONSIVE AYAT MEMPELAI */
+
+#invitation .arch-photo-frame {
+  container-type: inline-size;
+}
+
+#invitation .arch-verse {
+  top: 5% !important;
+  left: 9% !important;
+  right: 9% !important;
+  padding: 12px 8px 20px !important;
+  background: linear-gradient(
+    180deg,
+    rgba(65, 16, 25, .84),
+    rgba(65, 16, 25, .48) 75%,
+    transparent
+  );
+}
+
+#invitation .arch-verse .verse-text {
+  font-size: clamp(10px, 3.2cqw, 16px) !important;
+  line-height: 1.25 !important;
+  font-weight: 600 !important;
+  margin: 0 0 3px !important;
+  text-wrap: balance;
+}
+
+#invitation .arch-verse .verse-text-second {
+  margin-top: 8px !important;
+}
+
+#invitation .arch-verse .verse-ref {
+  font-size: clamp(9px, 2.7cqw, 13px) !important;
+  line-height: 1.25 !important;
+  margin: 0 !important;
+}
+
+/* HP kecil */
+@media (max-width: 400px) {
+  #invitation .arch-verse {
+    top: 7% !important;
+    left: 8% !important;
+    right: 8% !important;
+    padding: 8px 5px 12px !important;
+  }
+
+  #invitation .arch-verse .verse-text {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+  }
+
+  #invitation .arch-verse .verse-text-second {
+    margin-top: 5px !important;
+  }
+
+  #invitation .arch-verse .verse-ref {
+    font-size: 9px !important;
+  }
+}
