@@ -37,8 +37,20 @@ events: [
   }
 ],
   
-  gallery: [], // Isi dengan lokasi foto, mis. 'assets/gallery/foto1.webp'
-  whatsappOrganizer: '6281586539412', // Format 628xxxxxxxxxx untuk RSVP via WhatsApp
-  gift: {enabled:false, bank:'',account:'',recipient:''},
-  footer: 'Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/ Ibu/ Saudara dan Saudari berkenan menghadiri dan memberikan doa dan restu kepada kedua mempelai. Atas kehadirannya kami ucapakan banyak terima kasih dan KiranNya Tuhan Yang Maha Esa memberkati  kita semua.'
-};
+
+gallery: [
+  'assets/images/galeria.webp',
+  'assets/images/galerib.webp'
+],
+
+whatsappOrganizer: '6281386539412',
+
+gift: {
+  enabled: false,
+  bank: '',
+  account: '',
+  recipient: ''
+},
+
+footer: 'Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan menghadiri acara pernikahan kami.'
+
