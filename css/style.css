@@ -435,3 +435,25 @@ body.cover-active .page-cover .artwork {
   color: #f1c786;
   font-size: 13px;
 }
+
+/* ULIDO - JARAK PROFIL DAN FOTO MEMPELAI */
+
+#invitation .couple-grid {
+  margin-bottom: 35px !important;
+}
+
+#invitation .arch-couple-card {
+  margin-top: 20px !important;
+  margin-bottom: 25px !important;
+}
+
+@media (max-width: 600px) {
+  #invitation .couple-grid {
+    margin-bottom: 25px !important;
+  }
+
+  #invitation .arch-couple-card {
+    margin-top: 15px !important;
+  }
+}
+
