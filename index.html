@@ -79,4 +79,16 @@
 <nav class="bottom-nav" aria-label="Navigasi cepat"><a href="#home">⌂<span>Beranda</span></a><a href="#mempelai">♡<span>Mempelai</span></a><a href="#acara">▦<span>Acara</span></a><a href="#galeri">▧<span>Galeri</span></a><a href="#rsvp">✉<span>RSVP</span></a></nav><footer class="footer"><h2>Mauliate Godang</h2><p id="closing"></p><p class="foot-brand">Desain oleh ULIDO • Adat Batak Toba</p><button type="button" id="shareInvitation" class="back-button">Bagikan Undangan ↗</button><button type="button" id="backCover" class="back-button">↑ Kembali ke Cover</button></footer>
 </div><script src="config.js"></script><script src="js/script.js"></script>
 <script defer src="js/inside.js?v=4"></script>
+<!-- SISIPKAN INI TEPAT DI ATAS </body_> -->
+<script>
+    function bukaUndangan() {
+        var audio = document.getElementById("musikUndangan");
+        audio.play().catch(function(error) {
+            console.log("Gagal memutar audio:", error);
+        });
+
+        var cover = document.getElementById("cover-overlay");
+        cover.classList.add("fade-out");
+    }
+</script>    
 </body></html>
