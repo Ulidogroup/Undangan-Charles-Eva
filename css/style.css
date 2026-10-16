@@ -412,26 +412,3 @@ body.cover-active .page-cover .artwork {
   line-height: 1.25 !important;
   margin: 0 !important;
 }
-
-/* HP kecil */
-@media (max-width: 400px) {
-  #invitation .arch-verse {
-    top: 7% !important;
-    left: 8% !important;
-    right: 8% !important;
-    padding: 8px 5px 12px !important;
-  }
-
-  #invitation .arch-verse .verse-text {
-    font-size: 10px !important;
-    line-height: 1.2 !important;
-  }
-
-  #invitation .arch-verse .verse-text-second {
-    margin-top: 5px !important;
-  }
-
-  #invitation .arch-verse .verse-ref {
-    font-size: 9px !important;
-  }
-}
